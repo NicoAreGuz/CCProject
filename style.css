@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background: black
+}
+
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.Button {
+    background-color: #8b9b8d00;
+    color: rgb(0, 200, 0);
+    padding: 10px 20px;
+    font-family: 'Nippo', sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.Button:hover {
+    color: rgb(0, 255, 0)
+}
+
+.Button:active {
+    transform: translateY(2px);
+}
